@@ -1,27 +1,25 @@
 # CodingCamp-220925-SelvyanaPutri
 repository mini project coding camp software engineer revou
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlobalTech Solutions - Company Profile</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root {
-            --primary: #2563eb;
-            --primary-dark: #1d4ed8;
-            --secondary: #64748b;
-            --accent: #f59e0b;
-            --light: #f8fafc;
-            --dark: #1e293b;
-            --text: #334155;
-            --border: #e2e8f0;
-            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            --radius: 8px;
+        :root { 
+            --primary: #2563eb; 
+            --primary-dark: #1d4ed8; 
+            --secondary: #64748b; 
+            --accent: #f59e0b; 
+            --light: #f8fafc; 
+            --dark: #1e293b; 
+            --text: #334155; 
+            --border: #e2e8f0; 
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
+            --radius: 8px; 
         }
 
         * {
@@ -327,11 +325,12 @@ repository mini project coding camp software engineer revou
     <header>
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="logo">
-                    <i class="fas fa-globe"></i> Global<span>Tech</span>
+                <a href="#home" class="logo">
+                    <i class="fas fa-globe"></i>
+                    GlobalTech
                 </a>
                 <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#home" class="nav-link">Home</a></li>
                     <li><a href="#about" class="nav-link">Our Profile</a></li>
                     <li><a href="#branches" class="nav-link">Our Branches</a></li>
                     <li><a href="#contact" class="nav-link">Message Us</a></li>
@@ -580,7 +579,7 @@ repository mini project coding camp software engineer revou
             });
         });
 
-        // Advanced Branch Selection System (Your Original Design)
+        // Advanced Branch Selection System
         const branchOptions = document.querySelectorAll('.branch-option');
         const branchInfos = document.querySelectorAll('.branch-info');
         
